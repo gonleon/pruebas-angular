@@ -1,0 +1,17 @@
+<h2>Los colegios de Toledo</h2>
+<p>colegios works!</p>
+
+<button class="btn btn-outline-primary m-3" 
+(click)="agregarColegio()">
+    Agregar
+</button>
+
+<button class="btn btn-outline-danger"
+(click)="borrarColegio()">
+  Borrar
+</button>
+
+<ul>
+    <li *ngFor="let colegio of colegios"> {{colegio}} </li>
+</ul>
+
