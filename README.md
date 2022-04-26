@@ -1,8 +1,18 @@
-# Basica
+# Título del proyecto, equivalente a <h1>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
-## Development server
+Contenido del proyecto:
+
+- Crear una aplicación nueva, dando la opción de crear archivo de rutas
+```
+ng new 01-basica
+```
+- Crear el primer componente
+```
+  ng g c colegios
+```
+## Development server,  título equivalente <h2>
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
